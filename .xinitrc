@@ -41,5 +41,5 @@ devmon &
 fcitx &
 feh --bg-fill ~/img/小雪.jpg &
 slstatus &
-redshift &
-exec dwm
+#redshift &
+exec startdwm
