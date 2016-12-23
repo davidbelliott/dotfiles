@@ -39,7 +39,7 @@ fi
 
 devmon &
 fcitx &
-feh --bg-fill ~/img/小雪.jpg &
+feh --bg-fill ~/wallpaper/walls.png &
 slstatus &
 #redshift &
 exec startdwm

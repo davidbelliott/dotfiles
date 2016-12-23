@@ -1,9 +1,9 @@
 set recolor true
-set recolor-darkcolor "#839496"
-set recolor-lightcolor "#002b36"
+set recolor-darkcolor "#928374"
+set recolor-lightcolor "#282828"
 set selection-clipboard "clipboard"
 
-set statusbar-fg "#839496"
-set statusbar-bg "#002b36"
-set default-fg "#839496"
-set default-bg "#073642"
+set statusbar-fg "#928374"
+set statusbar-bg "#282828"
+set default-fg "#928374"
+set default-bg "#3c3836"
