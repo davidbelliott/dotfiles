@@ -1,3 +1,4 @@
+execute pathogen#infect()
 filetype plugin indent on
 syntax on
 set hidden
@@ -7,7 +8,7 @@ set tabstop=4
 set shiftwidth=4
 set nowrap
 set background=dark
-colorscheme solarized
+colorscheme gruvbox
 set encoding=utf8
 setglobal fileencoding=utf-8
 set colorcolumn=80
