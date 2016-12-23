@@ -11,7 +11,7 @@ static const char bg_inactive[]     = "#282828";
 static const char bg_active[]       = "#504945";
 static const char fg_inactive[]     = "#ebdbb2";
 static const char fg_active[]       = "#fe8019";
-static const char *colors[SchemeLast][3]      = {
+static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm] = { fg_inactive, bg_inactive, bg_active },
 	[SchemeSel] =  { fg_active, bg_inactive, fg_active },

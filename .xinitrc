@@ -42,5 +42,4 @@ fcitx &
 feh --bg-fill ~/wallpaper/walls.png &
 slstatus &
 redshift &
-compton &
 exec startdwm
