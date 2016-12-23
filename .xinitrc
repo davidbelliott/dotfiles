@@ -41,5 +41,6 @@ devmon &
 fcitx &
 feh --bg-fill ~/wallpaper/walls.png &
 slstatus &
-#redshift &
+redshift &
+compton &
 exec startdwm
