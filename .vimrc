@@ -29,8 +29,8 @@ set ttimeoutlen=150
 func! WordProcessorMode() 
   setlocal formatoptions=1 
   setlocal noexpandtab 
-  " map k gk 
-  " map j gj 
+  map k gk
+  map j gj
   setlocal spell spelllang=en_us 
   set thesaurus+=/Users/sbrown/.vim/thesaurus/mthesaur.txt
   set complete+=s

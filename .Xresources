@@ -1,5 +1,5 @@
-URxvt.font: xft:terminus-14,xft:WenQuanYi Bitmap Song:size=13
-URxvt.scrollBar: false
+URxvt*font:xft:xos4 Terminus-14, xft:WenQuanYi WenQuanYi Bitmap Song:size=13
+URxvt*scrollBar: false
 
 ! hard contrast: URxvt*background: #1d2021
 URxvt*background: #282828
