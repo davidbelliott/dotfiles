@@ -43,8 +43,8 @@ com! WP call WordProcessorMode()
 
 set number
 
-set grepprg=grep\ -nH\ $*
-let g:tex_flavor = "latex"
+"set grepprg=grep\ -nH\ $*
+"let g:tex_flavor = \"latex"
 
 map <Enter> o<ESC>
 map <S-Enter> O<ESC>

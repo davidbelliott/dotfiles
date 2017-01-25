@@ -1,4 +1,5 @@
 URxvt*font:xft:xos4 Terminus-14, xft:WenQuanYi WenQuanYi Bitmap Song:size=13
+URxvt*italicFont:xft:Monospace:pixelsize=14:antialias=true:italic:autohint=true:hinting=true
 URxvt*scrollBar: false
 
 ! hard contrast: URxvt*background: #1d2021
