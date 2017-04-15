@@ -26,21 +26,6 @@ endif
 
 set ttimeoutlen=150
 
-func! WordProcessorMode() 
-  setlocal formatoptions=1 
-  setlocal noexpandtab 
-  map k gk
-  map j gj
-  setlocal spell spelllang=en_us 
-  set thesaurus+=/Users/sbrown/.vim/thesaurus/mthesaur.txt
-  set complete+=s
-  set formatprg=par
-  setlocal wrap 
-  setlocal linebreak 
-  setlocal colorcolumn=""
-endfu 
-com! WP call WordProcessorMode()
-
 set number
 
 "set grepprg=grep\ -nH\ $*
@@ -48,3 +33,4 @@ set number
 
 map <Enter> o<ESC>
 map <S-Enter> O<ESC>
+map <F4> :e %:p:s,.h$,.X123X,:s,.cpp$,.h,:s,.X123X$,.cpp,<CR>
