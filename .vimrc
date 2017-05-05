@@ -1,5 +1,26 @@
-execute pathogen#infect()
+"initialize Vundle
+
+set nocompatible              " be iMproved, required
+filetype off                  " required
+
+" set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+" alternatively, pass a path where Vundle should install plugins
+"call vundle#begin('~/some/path/here')
+
+" let Vundle manage Vundle, required
+Plugin 'VundleVim/Vundle.vim'
+Plugin 'Valloric/YouCompleteMe'
+Plugin 'morhetz/gruvbox'
+Plugin 'vim-pandoc/vim-pandoc'
+Plugin 'vim-pandoc/vim-pandoc-syntax'
+
+call vundle#end()
+
+" Filetype plugins and indent
 filetype plugin indent on
+
 syntax on
 set hidden
 set backspace=indent,eol,start
@@ -28,8 +49,8 @@ set ttimeoutlen=150
 
 set number
 
-"set grepprg=grep\ -nH\ $*
-"let g:tex_flavor = \"latex"
+set grepprg=grep\ -nH\ $*
+let g:tex_flavor="latex"
 
 map <Enter> o<ESC>
 map <S-Enter> O<ESC>
