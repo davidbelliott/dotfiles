@@ -44,4 +44,5 @@ devmon &
 xsetroot -solid "#282828"
 slstatus &
 redshift &
+wmname LG3D
 exec dwm
