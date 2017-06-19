@@ -48,9 +48,6 @@ higher_cutoff_freq = 10000
 # for alsa 'source' will be the capture device. Default: 'hw:Loopback,1'
 # for fifo 'source' will be the path to fifo-file. Default: '/tmp/mpd.fifo' 
 
-method = alsa  
-source = hw:Loopback,1 
-
 ; method = pulse
 ; source = auto
 
@@ -97,7 +94,7 @@ style = mono
 # colors can one of seven predefined: red, green, yellow, magenta, cyan, white, blue, black.
 # or defined by hex code '#xxxxxx' (hex code must be within '')
 background = black
-foreground = white
+foreground = blue
 
 [smoothing]
 

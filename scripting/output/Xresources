@@ -1,0 +1,30 @@
+
+*.cursorColor:   #93a1a1
+*.font:xft:xos4 Terminess Powerline-14, xft:WenQuanYi WenQuanYi Bitmap Song:size=13
+*.italicFont:xft:Monospace:pixelsize=14:antialias=true:italic:autohint=true:hinting=true
+URxvt*scrollBar: false
+
+*.background:    #002b36
+*.foreground:    #93a1a1
+*.color0:        #002b36
+*.color1:        #dc322f
+*.color2:        #859900
+*.color3:        #b58900
+*.color4:        #268bd2
+*.color5:        #6c71c4
+*.color6:        #2aa198
+*.color7:        #93a1a1
+*.color8:        #657b83
+*.color9:        #dc322f
+*.color10:       #859900
+*.color11:       #b58900
+*.color12:       #268bd2
+*.color13:       #6c71c4
+*.color14:       #2aa198
+*.color15:       #fdf6e3
+*.color16:       #cb4b16
+*.color17:       #d33682
+*.color18:       #073642
+*.color19:       #586e75
+*.color20:       #839496
+*.color21:       #eee8d5

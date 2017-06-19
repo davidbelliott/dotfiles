@@ -1,14 +1,17 @@
 #!/bin/sh
 
+xrandr --setprovideroutputsource modesetting NVIDIA-0
+xrandr --auto
+xrandr --dpi 96
+
 userresources=$HOME/.Xresources
 usermodmap=$HOME/.Xmodmap
 sysresources=/etc/X11/xinit/.Xresources
 sysmodmap=/etc/X11/xinit/.Xmodmap
 
-# register input method modules for fcitx
 export GTK_IM_MODULE=fcitx
 export QT_IM_MODULE=fcitx
-export XMODIFIERS="@im=fcitx"
+export XMODIFIERS=@im=fcitx
 
 # merge in defaults and keymaps
 
@@ -37,12 +40,10 @@ if [ -d /etc/X11/xinit/xinitrc.d ] ; then
  unset f
 fi
 
-mopidy &
 fcitx &
-devmon &
-#feh --bg-fill ~/wallpaper/flame.png &
-xsetroot -solid "#282828"
+hsetroot -solid "#{{ base00 }}"
 slstatus &
 redshift &
+compton &
 wmname LG3D
-exec dwm
+exec startdwm

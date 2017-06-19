@@ -6,16 +6,17 @@ static const unsigned int borderpx  = 1;        /* border pixel of windows */
 static const unsigned int snap      = 32;       /* snap pixel */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
-static const char *fonts[]          = { "xos4 Terminus-14" };
-static const char dmenufont[]       = "xos4 Terminus-14";
-static const char bg_inactive[]     = "#282828";
-static const char bg_active[]       = "#504945";
-static const char fg_inactive[]     = "#ebdbb2";
-static const char fg_active[]       = "#fe8019";
+static const char *fonts[]          = { "xos4 Terminess Powerline-14" };
+static const char dmenufont[]       = "xos4 Terminess Powerline-14";
+static const char col_gray1[]       = "#073642";
+static const char col_gray2[]       = "#586e75";
+static const char col_gray3[]       = "#839496";
+static const char col_gray4[]       = "#eee8d5";
+static const char col_cyan[]        = "#586e75";
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
-	[SchemeNorm] = { fg_inactive, bg_inactive, bg_active },
-	[SchemeSel] =  { fg_active, bg_inactive, fg_active },
+	[SchemeNorm] = { col_gray3, col_gray1, col_gray1 },
+	[SchemeSel]  = { col_gray4, col_gray2,  col_gray4 },
 };
 
 /* tagging */
@@ -57,7 +58,7 @@ static const Layout layouts[] = {
 
 /* commands */
 static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() */
-static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont, "-nb", bg_inactive, "-nf", fg_inactive, "-sb", bg_inactive, "-sf", fg_active, NULL };
+static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont, "-nb", col_gray1, "-nf", col_gray3, "-sb", col_cyan, "-sf", col_gray4, NULL };
 static const char *termcmd[]  = { "urxvt", NULL };
 
 static Key keys[] = {
@@ -114,4 +115,3 @@ static Button buttons[] = {
 	{ ClkTagBar,            MODKEY,         Button1,        tag,            {0} },
 	{ ClkTagBar,            MODKEY,         Button3,        toggletag,      {0} },
 };
-

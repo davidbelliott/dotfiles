@@ -6,17 +6,18 @@ filetype off                  " required
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
-" alternatively, pass a path where Vundle should install plugins
-"call vundle#begin('~/some/path/here')
-
-" let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
-Plugin 'Valloric/YouCompleteMe'
-Plugin 'morhetz/gruvbox'
 Plugin 'vim-pandoc/vim-pandoc'
 Plugin 'vim-pandoc/vim-pandoc-syntax'
-
+Plugin 'digitaltoad/vim-pug'
+Plugin 'junegunn/goyo.vim'
+Plugin 'ctrlpvim/ctrlp.vim'
+Plugin 'vim-scripts/a.vim'
 call vundle#end()
+
+" colorscheme
+let base16colorspace=256
+colorscheme base16
 
 " Filetype plugins and indent
 filetype plugin indent on
@@ -24,13 +25,20 @@ filetype plugin indent on
 syntax on
 set hidden
 set backspace=indent,eol,start
+set ruler
+set number
+set showcmd
+set incsearch
+set hlsearch
 set expandtab
 set tabstop=4
 set shiftwidth=4
-set nowrap
 set background=dark
-colorscheme gruvbox
 set encoding=utf8
+set mouse=a
+
+hi clear SignColumn
+
 setglobal fileencoding=utf-8
 set colorcolumn=80
 command! -nargs=0 Sw w !sudo tee % > /dev/null
@@ -46,11 +54,6 @@ if has("multi_byte")
 endif
 
 set ttimeoutlen=150
-
-set number
-
-set grepprg=grep\ -nH\ $*
-let g:tex_flavor="latex"
 
 map <Enter> o<ESC>
 map <S-Enter> O<ESC>

@@ -1,32 +1,35 @@
+
+*.cursorColor: #a0888a
 URxvt*font:xft:xos4 Terminus-14, xft:WenQuanYi WenQuanYi Bitmap Song:size=13
-URxvt*italicFont:xft:Monospace:pixelsize=14:antialias=true:italic:autohint=true:hinting=true
+Rxvt*italicFont:xft:Monospace:pixelsize=14:antialias=true:italic:autohint=true:hinting=true
 URxvt*scrollBar: false
 
-! hard contrast: URxvt*background: #1d2021
-URxvt*background: #282828
-! soft contrast: URxvt*background: #32302f
-URxvt*foreground: #ebdbb2
-! Black + DarkGrey
-URxvt*color0:  #282828
-URxvt*color8:  #928374
-! DarkRed + Red
-URxvt*color1:  #cc241d
-URxvt*color9:  #fb4934
-! DarkGreen + Green
-URxvt*color2:  #98971a
-URxvt*color10: #b8bb26
-! DarkYellow + Yellow
-URxvt*color3:  #d79921
-URxvt*color11: #fabd2f
-! DarkBlue + Blue
-URxvt*color4:  #458588
-URxvt*color12: #83a598
-! DarkMagenta + Magenta
-URxvt*color5:  #b16286
-URxvt*color13: #d3869b
-! DarkCyan + Cyan
-URxvt*color6:  #689d6a
-URxvt*color14: #8ec07c
-! LightGrey + White
-URxvt*color7:  #a89984
-URxvt*color15: #ebdbb2
+*background: [85]#0e0e0e
+*foreground: #ffffff
+! black
+*color0: #201e1d
+*color8: #806e76
+! red
+*color1: #dc8cc3
+*color9: #dbdbcc
+! green
+*color2: #dfb091
+*color10: #bbc8bb
+! yellow
+*color3: #88a08d
+*color11: #92ced0
+! blue
+*color4: #aa99a0
+*color12: #c8aab1
+! magenta
+*color5: #67a08a
+*color13: #8fb8c8
+! cyan
+*color6: #799da0
+*color14: #6bc89a
+! white
+*color7: #a0888a
+*color15: #c89090
+! underline when default
+*colorUL: #a0888a
+! vim: set ft=xdefaults:
