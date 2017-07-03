@@ -1,4 +1,5 @@
-extends: solarized-dark.yaml
+extends: gruvbox-dark-hard.yaml
+primary: "fe8019"
 fontName: "xos4 Terminess Powerline"
 fontSize: 14
 font: "-*-terminus-*-*-*-*-14-*-*-*-*-*-*-*"

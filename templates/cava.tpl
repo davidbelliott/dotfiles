@@ -94,7 +94,7 @@ style = mono
 # colors can one of seven predefined: red, green, yellow, magenta, cyan, white, blue, black.
 # or defined by hex code '#xxxxxx' (hex code must be within '')
 background = '#{{ base00 }}'
-foreground = '#{{ base02 }}'
+foreground = '#{{ base04 }}'
 
 [smoothing]
 
