@@ -7,7 +7,7 @@ static const unsigned int borderpx  = 1;        /* border pixel of windows */
 static const unsigned int snap      = 32;       /* snap pixel */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
-static const char *fonts[]          = { "{{fontName}}-{{fontSize}}" };
+static const char *fonts[]          = { "{{fontName}}-{{fontSize}}", "WenQuanYi WenQuanYi Bitmap Song" };
 static const char dmenufont[]       = "{{fontName}}-{{fontSize}}";
 static const char col_gray1[]       = "#{{ base00 }}";
 static const char col_gray2[]       = "#{{ base02 }}";
@@ -21,7 +21,7 @@ static const char *colors[][3]      = {
 };
 
 /* tagging */
-static const char *tags[] = { "1", "2", "3", "4", "5", "6", "7", "8", "9" };
+static const char *tags[] = { "甲", "乙", "丙", "丁", "戊", "己", "庚", "辛", "壬" };
 
 static const Rule rules[] = {
 	/* xprop(1):
