@@ -4,7 +4,7 @@
 # Main Window Position Y
 #MainWindowOffsetY=40
 # Font
-#Font=
+Font=WenQuanYi WenQuanYi Bitmap Song
 # Font Locale to display
 #FontLocale=zh_CN.UTF-8
 # Use System Tray Icon
@@ -16,7 +16,7 @@
 # Show
 # Auto
 # Hide
-#MainWindowHideMode=Auto
+MainWindowHideMode=Hide
 # Vertical Candidate Word List
 # Available Value:
 # True False
@@ -24,31 +24,33 @@
 # Font Size
 #FontSize=12
 # Background Color
-#BackgroundColor=255 255 255
+BackgroundColor={{base00_rd}} {{base00_gd}} {{base00_bd}}
 # Border Color
-#BorderColor=197 200 191
+BorderColor={{base05_rd}} {{base05_gd}} {{base05_bd}}
 # Tip Message Color
-#TipColor=2 89 196
+TipColor={{base05_rd}} {{base05_gd}} {{base05_bd}}
 # Input Message Color
-#InputColor=255 0 132
+InputColor={{base05_rd}} {{base05_gd}} {{base05_bd}}
 # Candidate Index Color
-#IndexColor=0 66 200
+IndexColor={{base05_rd}} {{base05_gd}} {{base05_bd}}
 # First Candidate Color
-#FirstCandColor=0 99 200
+FirstCandColor={{base09_rd}} {{base09_gd}} {{base09_bd}}
 # User Phrase Color
-#UserPhraseColor=0 99 200
+UserPhraseColor={{base05_rd}} {{base05_gd}} {{base05_bd}}
 # Table Code Color
-#CodeColor=255 0 132
+CodeColor={{base05_rd}} {{base05_gd}} {{base05_bd}}
 # Other Color
-#OtherColor=56 134 230
+OtherColor={{base0C_rd}} {{base0C_gd}} {{base0C_bd}}
 # Active Menu Item Character Color
-#ActiveMenuColor=0 99 200
+ActiveMenuColor={{base09_rd}} {{base09_gd}} {{base09_bd}}
 # Inactive Menu Item Character Color
-#InactiveMenuColor=0 99 200
+InactiveMenuColor={{base09_rd}} {{base09_gd}} {{base09_bd}}
 # Active Menu Color
-#ActiveColor=197 200 191
+ActiveColor={{base09_rd}} {{base09_gd}} {{base09_bd}}
 # Space Line Color
 #LineColor=197 200 191
+LineColor={{base05_rd}} {{base05_gd}} {{base05_bd}}
 # Cursor Color
+CursorColor={{base05_rd}} {{base05_gd}} {{base05_bd}}
 #CursorColor=40 40 240
 

@@ -84,7 +84,7 @@
 # No
 # All
 # PerProgram
-ShareStateAmongWindow=All
+#ShareStateAmongWindow=No
 # Default Input Method State
 # Available Value:
 # Inactive
@@ -105,7 +105,7 @@ ShareStateAmongWindow=All
 # True False
 #SendTextWhenSwitchEng=True
 # Candidate Word Number
-#CandidateWordNumber=5
+CandidateWordNumber=10
 # Give the tips of Phrase
 # Available Value:
 # True False

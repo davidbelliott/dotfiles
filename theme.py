@@ -33,9 +33,15 @@ def split_colors(data):
     additional_data = {}
     for key, value in data.items():
         if key.startswith('base'):
-            additional_data[key + '_r'] = value[:2]
-            additional_data[key + '_g'] = value[2:4]
-            additional_data[key + '_b'] = value[-2:]
+            r = value[:2]
+            g = value[2:4]
+            b = value[-2:]
+            additional_data[key + '_r'] = r
+            additional_data[key + '_g'] = g
+            additional_data[key + '_b'] = b
+            additional_data[key + '_rd'] = int(r, 16)
+            additional_data[key + '_gd'] = int(g, 16)
+            additional_data[key + '_bd'] = int(b, 16)
     data = dict_update(data, additional_data)
     return data
 
