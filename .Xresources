@@ -1,0 +1,35 @@
+
+*.cursorColor: #a0888a
+URxvt*font:xft:xos4 Terminus-14, xft:WenQuanYi WenQuanYi Bitmap Song:size=13
+Rxvt*italicFont:xft:Monospace:pixelsize=14:antialias=true:italic:autohint=true:hinting=true
+URxvt*scrollBar: false
+
+*background: [85]#0e0e0e
+*foreground: #ffffff
+! black
+*color0: #201e1d
+*color8: #806e76
+! red
+*color1: #dc8cc3
+*color9: #dbdbcc
+! green
+*color2: #dfb091
+*color10: #bbc8bb
+! yellow
+*color3: #88a08d
+*color11: #92ced0
+! blue
+*color4: #aa99a0
+*color12: #c8aab1
+! magenta
+*color5: #67a08a
+*color13: #8fb8c8
+! cyan
+*color6: #799da0
+*color14: #6bc89a
+! white
+*color7: #a0888a
+*color15: #c89090
+! underline when default
+*colorUL: #a0888a
+! vim: set ft=xdefaults:

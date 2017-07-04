@@ -1,0 +1,17 @@
+extends: gruvbox-dark-hard.yaml
+primary: "fe8019"
+fontName: "xos4 Terminess Powerline"
+fontSize: 14
+font: "-*-terminus-*-*-*-*-14-*-*-*-*-*-*-*"
+
+files:
+    bashrc.tpl: ~/.bashrc
+    cava.tpl: ~/.config/cava/config
+    dwm_config.tpl: ~/build/dwm/config.h
+    qutebrowser.tpl: ~/.config/qutebrowser/qutebrowser.conf
+    shell.tpl: ~/.shell.sh
+    vim_colorscheme.tpl: ~/.vim/colors/base16.vim
+    xresources.tpl: ~/.Xresources
+    xinitrc.tpl: ~/.xinitrc
+    fcitx_config.tpl: ~/.config/fcitx/config
+    fcitx_light_ui_config.tpl: ~/.config/fcitx/conf/fcitx-light-ui.config
