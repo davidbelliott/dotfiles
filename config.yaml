@@ -8,8 +8,10 @@ files:
     bashrc.tpl: ~/.bashrc
     cava.tpl: ~/.config/cava/config
     dwm_config.tpl: ~/build/dwm/config.h
+    slock_config.tpl: ~/build/slock/config.h
     qutebrowser.tpl: ~/.config/qutebrowser/qutebrowser.conf
     shell.tpl: ~/.shell.sh
+    vimrc.tpl: ~/.vimrc
     vim_colorscheme.tpl: ~/.vim/colors/base16.vim
     xresources.tpl: ~/.Xresources
     xinitrc.tpl: ~/.xinitrc

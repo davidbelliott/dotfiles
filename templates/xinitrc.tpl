@@ -40,10 +40,13 @@ if [ -d /etc/X11/xinit/xinitrc.d ] ; then
  unset f
 fi
 
+udiskie &
 fcitx &
+dunst &
 hsetroot -solid "#{{ base00 }}"
 slstatus &
 redshift &
 compton &
+udiskie &
 wmname LG3D
 exec startdwm

@@ -9,6 +9,6 @@ alias ls='ls --color=auto'
 alias safe-eject='udiskie-umount -fd'
 PS1='[\u@\h \W]\$ '
 
-PATH=$PATH:/home/david/.gem/ruby/2.4.0/bin
+PATH=$PATH:/home/david/.gem/ruby/2.4.0/bin:$HOME/bin
 
 ~/.shell.sh

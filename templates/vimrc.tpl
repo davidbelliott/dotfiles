@@ -30,9 +30,9 @@ set number
 set showcmd
 set incsearch
 set hlsearch
-set expandtab
 set tabstop=4
 set shiftwidth=4
+set expandtab
 set background=dark
 set encoding=utf8
 set mouse=a

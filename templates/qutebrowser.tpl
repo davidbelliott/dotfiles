@@ -326,7 +326,7 @@ message-unfocused = false
 confirm-quit = never
 zoom-text-only = false
 frame-flattening = false
-user-stylesheet = stylesheet.css
+user-stylesheet = 
 hide-scrollbar = true
 css-media-type = 
 smooth-scrolling = false
@@ -772,7 +772,7 @@ indicator-padding = 0,0,0,0
 # cache-size (Int):
 #     Size of the HTTP network cache.
 #     Default: 52428800
-download-directory = 
+download-directory = ~/downloads
 prompt-download-directory = true
 remember-download-directory = true
 maximum-pages-in-cache = 
