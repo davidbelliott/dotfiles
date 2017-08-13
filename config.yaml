@@ -17,3 +17,4 @@ files:
     xinitrc.tpl: ~/.xinitrc
     fcitx_config.tpl: ~/.config/fcitx/config
     fcitx_light_ui_config.tpl: ~/.config/fcitx/conf/fcitx-light-ui.config
+    tmux.tpl: ~/.tmux.conf

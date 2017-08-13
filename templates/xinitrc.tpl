@@ -45,7 +45,6 @@ fcitx &
 dunst &
 hsetroot -solid "#{{ base00 }}"
 slstatus &
-redshift &
 compton &
 udiskie &
 wmname LG3D
