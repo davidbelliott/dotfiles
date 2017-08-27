@@ -4,8 +4,6 @@
 
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
-# Start tmux
-[[ -z "$TMUX" ]] && exec tmux
 
 alias ls='ls --color=auto'
 alias safe-eject='udiskie-umount -fd'
