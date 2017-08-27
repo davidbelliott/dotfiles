@@ -40,6 +40,13 @@ if [ -d /etc/X11/xinit/xinitrc.d ] ; then
  unset f
 fi
 
+# No bell beep
+xset -b
+
+# set key repeat
+xset r rate 250 30
+
+# start programs
 udiskie &
 fcitx &
 dunst &
