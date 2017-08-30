@@ -4,7 +4,7 @@
 # Main Window Position Y
 #MainWindowOffsetY=40
 # Font
-Font=WenQuanYi WenQuanYi Bitmap Song
+Font={{ chineseFontName }}
 # Font Locale to display
 #FontLocale=zh_CN.UTF-8
 # Use System Tray Icon
@@ -22,7 +22,7 @@ MainWindowHideMode=Hide
 # True False
 #VerticalList=False
 # Font Size
-#FontSize=12
+FontSize={{ chineseFontSize }}
 # Background Color
 BackgroundColor={{base00_rd}} {{base00_gd}} {{base00_bd}}
 # Border Color

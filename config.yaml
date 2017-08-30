@@ -3,8 +3,8 @@ primary: "fe8019"
 fontName: "xos4 Terminess Powerline"
 fontSize: 12
 chineseFontName: WenQuanYi WenQuanYi Bitmap Song
-chineseFontSize: 12
-font: "-*-terminus-*-*-*-*-12-*-*-*-*-*-*-*"
+chineseFontSize: 11
+font: "-*-terminus-*-*-*-*-14-*-*-*-*-*-*-*"
 
 files:
     bashrc.tpl: ~/.bashrc

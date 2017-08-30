@@ -3,7 +3,7 @@
 
 python theme.py config.yaml
 
-chmod +x ./output/shell.sh
+chmod +x ~/.shell.sh
 xrdb ~/.Xresources
 source ~/.bashrc
 cd ~/build/dwm && sudo make clean install
