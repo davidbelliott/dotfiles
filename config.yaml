@@ -1,14 +1,17 @@
 extends: gruvbox-dark-hard.yaml
 primary: "fe8019"
 fontName: "xos4 Terminess Powerline"
-fontSize: 14
-font: "-*-terminus-*-*-*-*-14-*-*-*-*-*-*-*"
+fontSize: 12
+chineseFontName: WenQuanYi WenQuanYi Bitmap Song
+chineseFontSize: 12
+font: "-*-terminus-*-*-*-*-12-*-*-*-*-*-*-*"
 
 files:
     bashrc.tpl: ~/.bashrc
     cava.tpl: ~/.config/cava/config
     dwm_config.tpl: ~/build/dwm/config.h
     slock_config.tpl: ~/build/slock/config.h
+    slstatus_config.h: ~/build/slstatus/config.h
     qutebrowser.tpl: ~/.config/qutebrowser/qutebrowser.conf
     shell.tpl: ~/.shell.sh
     vimrc.tpl: ~/.vimrc

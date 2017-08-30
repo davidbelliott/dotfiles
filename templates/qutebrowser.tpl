@@ -397,7 +397,7 @@ prompt-filebrowser = true
 #     ~/.netrc is used.
 #     Default:
 do-not-track = true
-accept-language = en-US,en
+accept-language = zh-TW, en-US,en
 referer-header = same-domain
 user-agent = 
 proxy = system
@@ -1539,7 +1539,7 @@ prompts.selected.bg = ${completion.item.selected.bg}
 # prompts (Font):
 #     Font used for prompts.
 #     Default: 8pt sans-serif
-_monospace = {{fontSize}}pt {{fontName}}, WenQuanYi WenQuanYi Bitmap Song
+_monospace = {{fontSize}}pt {{fontName}}, {{chineseFontSize}}pt {{chineseFontName}}
 completion = ${_monospace}
 completion.category = bold ${completion}
 tabbar = ${_monospace}

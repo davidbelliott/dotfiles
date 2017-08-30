@@ -1,6 +1,6 @@
 {# belongs in .themer/templates/i3/xresources.tpl #}
 *.cursorColor:   #{{ base05 }}
-*.font:xft:{{ fontName }}-{{ fontSize }}, xft:WenQuanYi WenQuanYi Bitmap Song:size=13
+*.font:xft:{{ fontName }}-{{ fontSize }}, xft:{{ chineseFontName }}:size={{ chineseFontSize }}
 *.italicFont:xft:Monospace:pixelsize=14:antialias=true:italic:autohint=true:hinting=true
 URxvt*scrollBar: false
 
