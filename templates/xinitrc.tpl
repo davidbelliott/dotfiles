@@ -54,6 +54,4 @@ dunst &
 hsetroot -solid "#{{ base00 }}"
 slstatus &
 compton &
-udiskie &
-wmname LG3D
-exec startdwm
+exec dwm

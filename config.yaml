@@ -1,6 +1,6 @@
 extends: phd.yaml
 primary: "fe8019"
-fontName: "xos4 Terminess Powerline"
+fontName: "xos4 Terminus"
 fontSize: 12
 chineseFontName: WenQuanYi WenQuanYi Bitmap Song
 chineseFontSize: 11
