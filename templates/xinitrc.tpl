@@ -51,7 +51,7 @@ xset r rate 250 30
 udiskie &
 fcitx &
 dunst &
-hsetroot -solid "#{{ base00 }}"
+feh --bg-fill "~/porsche.png"
 slstatus &
 compton &
 exec dwm

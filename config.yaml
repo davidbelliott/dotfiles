@@ -10,11 +10,13 @@ files:
     bashrc.tpl: ~/.bashrc
     cava.tpl: ~/.config/cava/config
     dwm_config.tpl: ~/build/dwm/config.h
+    gtk.css: ~/.config/gtk-3.0/gtk.css
     slock_config.tpl: ~/build/slock/config.h
     slstatus_config.h: ~/build/slstatus/config.h
-    qutebrowser.tpl: ~/.config/qutebrowser/qutebrowser.conf
+    qutebrowser_config.py: ~/.config/qutebrowser/config.py
     shell.tpl: ~/.shell.sh
     vimrc.tpl: ~/.vimrc
+    gvimrc: ~/.gvimrc
     vim_colorscheme.tpl: ~/.vim/colors/base16.vim
     xresources.tpl: ~/.Xresources
     xinitrc.tpl: ~/.xinitrc
