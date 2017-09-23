@@ -112,5 +112,12 @@ c.fonts.prompts = default_font
 c.fonts.statusbar = default_font
 c.fonts.tabs = default_font
 
+c.fonts.web.family.cursive = "serif"
+c.fonts.web.family.fantasy = "serif"
+c.fonts.web.family.fixed = "monospace"
+c.fonts.web.family.sans_serif = "sans-serif"
+c.fonts.web.family.serif = "serif"
+c.fonts.web.family.standard = "sans-serif"
+
 c.tabs.favicons.show = False
 c.tabs.width.indicator = 0

@@ -23,3 +23,4 @@ files:
     fcitx_config.tpl: ~/.config/fcitx/config
     fcitx_light_ui_config.tpl: ~/.config/fcitx/conf/fcitx-light-ui.config
     tmux.conf: ~/.tmux.conf
+    fonts.conf: ~/.config/fontconfig/fonts.conf
