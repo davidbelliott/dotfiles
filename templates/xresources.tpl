@@ -3,6 +3,8 @@
 *.font:xft:{{ fontName }}-{{ fontSize }}, xft:{{ chineseFontName }}:size={{ chineseFontSize }}
 *.italicFont:xft:Monospace:pixelsize=14:antialias=true:italic:autohint=true:hinting=true
 URxvt*scrollBar: false
+URxvt.iso14755: true
+URxvt.iso14755_52: false
 
 *.background:    #{{ base00 }}
 *.foreground:    #{{ base05 }}

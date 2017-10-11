@@ -1,4 +1,4 @@
-extends: phd.yaml
+extends: gruvbox-dark-hard.yaml
 primary: "fe8019"
 fontName: "xos4 Terminus"
 fontSize: 12
@@ -24,3 +24,5 @@ files:
     fcitx_light_ui_config.tpl: ~/.config/fcitx/conf/fcitx-light-ui.config
     tmux.conf: ~/.tmux.conf
     fonts.conf: ~/.config/fontconfig/fonts.conf
+    #stx: /usr/local/bin/stx
+    zathurarc: ~/.config/zathura/zathurarc

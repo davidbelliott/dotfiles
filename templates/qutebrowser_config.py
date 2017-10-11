@@ -121,3 +121,5 @@ c.fonts.web.family.standard = "sans-serif"
 
 c.tabs.favicons.show = False
 c.tabs.width.indicator = 0
+
+c.content.plugins = True

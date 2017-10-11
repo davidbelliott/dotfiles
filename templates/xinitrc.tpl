@@ -44,14 +44,13 @@ fi
 # No bell beep
 xset -b
 
-# set key repeat
-xset r rate 250 30
-
 # start programs
 udiskie &
 fcitx &
 dunst &
-feh --bg-fill "./porsche.png"
+hsetroot -solid "#{{ base00 }}"
 slstatus &
 compton &
+redshift &
+xautolock -time 10 -locker slock &
 exec dwm

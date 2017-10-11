@@ -53,6 +53,6 @@ static const struct arg args[] = {
         { battery_perc, "[電池 %2s%% ", "BAT0" },
         { battery_state, "%s]", "BAT0" },
 	{ cpu_perc, " [中央處理器 %2s%%]", NULL    },
-	{ ram_perc, " [RAM %2s%%]", NULL    },
+	{ ram_perc, " [隨機存取記憶體 %2s%%]", NULL    },
 	{ datetime, " [%s]",       "%F %T" },
 };
