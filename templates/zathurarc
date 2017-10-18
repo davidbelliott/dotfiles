@@ -5,5 +5,5 @@ set selection-clipboard "clipboard"
 
 set statusbar-fg "#{{ base05 }}"
 set statusbar-bg "#{{ base01 }}"
-set default-fg "#{{ base00 }}"
+set default-fg "#{{ base05 }}"
 set default-bg "#{{ base00 }}"

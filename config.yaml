@@ -1,9 +1,9 @@
 extends: gruvbox-dark-hard.yaml
 primary: "fe8019"
 fontName: "xos4 Terminus"
-fontSize: 12
+fontSize: 14
 chineseFontName: WenQuanYi WenQuanYi Bitmap Song
-chineseFontSize: 11
+chineseFontSize: 13
 font: "-*-terminus-*-*-*-*-14-*-*-*-*-*-*-*"
 
 files:
@@ -26,3 +26,4 @@ files:
     fonts.conf: ~/.config/fontconfig/fonts.conf
     #stx: /usr/local/bin/stx
     zathurarc: ~/.config/zathura/zathurarc
+    dunstrc: ~/.config/dunst/dunstrc
