@@ -12,7 +12,8 @@ sysmodmap=/etc/X11/xinit/.Xmodmap
 export GTK_IM_MODULE=fcitx
 export QT_IM_MODULE=fcitx
 export XMODIFIERS=@im=fcitx
-export LANG=zh_TW.UTF-8
+#export LANG=zh_TW.UTF-8
+export LANG=en_US.UTF-8
 
 # merge in defaults and keymaps
 
@@ -53,4 +54,5 @@ slstatus &
 compton &
 redshift &
 xautolock -time 10 -locker slock &
+set-headphone-port.sh &
 exec dwm

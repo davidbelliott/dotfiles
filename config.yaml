@@ -1,4 +1,67 @@
+#extends: 3024.yaml
+#extends: apathy.yaml
+#extends: ashes.yaml
+#extends: atelier-cave-light.yaml
+#extends: atelier-cave.yaml
+#extends: atelier-dune-light.yaml
+#extends: atelier-dune.yaml
+#extends: atelier-estuary-light.yaml
+#extends: atelier-estuary.yaml
+#extends: atelier-forest-light.yaml
+#extends: atelier-forest.yaml
+#extends: atelier-heath-light.yaml
+#extends: atelier-heath.yaml
+#extends: atelier-lakeside-light.yaml
+#extends: atelier-lakeside.yaml
+#extends: atelier-plateau-light.yaml
+#extends: atelier-plateau.yaml
+#extends: atelier-savanna-light.yaml
+#extends: atelier-savanna.yaml
+#extends: atelier-seaside-light.yaml
+#extends: atelier-seaside.yaml
+#extends: atelier-sulphurpool-light.yaml
+#extends: atelier-sulphurpool.yaml
+#extends: bespin.yaml
+#extends: brewer.yaml
+#extends: bright.yaml
+#extends: chalk.yaml
+#extends: codeschool.yaml
+#extends: darktooth.yaml
+#extends: embers.yaml
+#extends: flat.yaml
+#extends: google-dark.yaml
+#extends: google-light.yaml
+#extends: grayscale-dark.yaml
+#extends: grayscale-light.yaml
+#extends: greenscreen.yaml
 extends: gruvbox-dark-hard.yaml
+#extends: gruvbox-dark-medium.yaml
+#extends: gruvbox-dark-pale.yaml
+#extends: gruvbox-dark-soft.yaml
+#extends: gruvbox-light-hard.yaml
+#extends: gruvbox-light-medium.yaml
+#extends: gruvbox-light-soft.yaml
+#extends: harmonic-dark.yaml
+#extends: harmonic-light.yaml
+#extends: hopscotch.yaml
+#extends: irblack.yaml
+#extends: isotope.yaml
+#extends: macintosh.yaml
+#extends: marrakesh.yaml
+#extends: monokai.yaml
+#extends: oceanicnext.yaml
+#extends: paraiso.yaml
+#extends: phd.yaml
+#extends: pico.yaml
+#extends: pop.yaml
+#extends: railscasts.yaml
+#extends: seti.yaml
+#extends: shapeshifter.yaml
+#extends: solarflare.yaml
+#extends: solarized-dark.yaml
+#extends: solarized-light.yaml
+#extends: spacemacs.yaml
+#extends: tube.yaml
 primary: "fe8019"
 fontName: "xos4 Terminus"
 fontSize: 14
@@ -8,8 +71,11 @@ font: "-*-terminus-*-*-*-*-14-*-*-*-*-*-*-*"
 
 files:
     bashrc.tpl: ~/.bashrc
+    zshrc: ~/.zshrc
+    zshenv: ~/.zshenv
     cava.tpl: ~/.config/cava/config
     dwm_config.tpl: ~/build/dwm/config.h
+    tabbed_config.h: ~/build/tabbed/config.h
     gtk.css: ~/.config/gtk-3.0/gtk.css
     slock_config.tpl: ~/build/slock/config.h
     slstatus_config.h: ~/build/slstatus/config.h
@@ -27,3 +93,4 @@ files:
     #stx: /usr/local/bin/stx
     zathurarc: ~/.config/zathura/zathurarc
     dunstrc: ~/.config/dunst/dunstrc
+

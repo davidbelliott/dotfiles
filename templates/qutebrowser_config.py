@@ -1,7 +1,7 @@
 config.load_autoconfig = False
 
 c.content.ssl_strict = False
-c.content.private_browsing = True
+c.content.private_browsing = False
 
 c.url.searchengines = {"DEFAULT": "https://google.com/search?q={}"}
 c.url.start_pages = ["about:blank"]
@@ -119,7 +119,10 @@ c.fonts.web.family.sans_serif = "sans-serif"
 c.fonts.web.family.serif = "serif"
 c.fonts.web.family.standard = "sans-serif"
 
+c.tabs.show = "multiple"
 c.tabs.favicons.show = False
-c.tabs.width.indicator = 0
+c.tabs.indicator.width = 0
 
 c.content.plugins = True
+
+c.content.headers.accept_language = 'zh-TW,en-US,en'

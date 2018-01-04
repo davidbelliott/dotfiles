@@ -12,6 +12,8 @@ Plugin 'vim-pandoc/vim-pandoc-syntax'
 Plugin 'digitaltoad/vim-pug'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'vim-scripts/a.vim'
+Plugin 'lervag/vimtex'
+Plugin 'scrooloose/syntastic'
 call vundle#end()
 
 " colorscheme
@@ -36,6 +38,20 @@ set background=dark
 set encoding=utf8
 set mouse=a
 set wildmenu
+
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+" vimtex
+let g:vimtex_view_method = 'zathura'
+
+" Syntastic
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+let g:syntastic_tex_checkers = ['chktex']
 
 setglobal fileencoding=utf-8
 set colorcolumn=80
