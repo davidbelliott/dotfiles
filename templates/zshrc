@@ -1,0 +1,20 @@
+# vim keybindings
+bindkey -v
+
+# 10ms for key sequences
+KEYTIMEOUT=1
+
+# vi style incremental search
+bindkey '^R' history-incremental-search-backward
+bindkey '^S' history-incremental-search-forward
+bindkey '^P' history-search-backward
+bindkey '^N' history-search-forward  
+
+autoload -Uz compinit promptinit
+compinit
+promptinit
+
+prompt grml
+
+# Fix Base 16 colors
+~/.shell.sh
