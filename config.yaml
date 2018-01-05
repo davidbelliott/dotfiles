@@ -96,3 +96,5 @@ files:
     compton.conf: ~/.config/compton.conf
     mimeapps.list: ~/.config/mimeapps.list
     feh-themes: ~/.config/feh/themes
+    solarize.sh: ~/build/solarc-theme/solarize.sh
+    mpdconf: ~/.mpdconf
