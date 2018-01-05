@@ -3,10 +3,24 @@ import yaml
 import jinja2
 import sys
 import os
+import errno
 
-theme_path = "themes"
+theme_path = "themes/all"
 template_path = "templates"
 output_path = "output"
+
+def mkdir_p(path):
+    try:
+        os.makedirs(path)
+    except OSError as exc:
+        if exc.errno == errno.EEXIST and os.path.isdir(path):
+            pass
+        else:
+            raise
+
+def safe_open_w(path):
+    mkdir_p(os.path.dirname(path))
+    return open(path, 'w')
 
 def dict_update(parent, child):
     """Recursively update parent dict with child dict."""
@@ -49,7 +63,7 @@ def render_all_templates(files, data):
     env = jinja2.Environment(loader=jinja2.FileSystemLoader('.'))
     print(files)
     for template_fh, out_fh in files.items():
-        out = open(os.path.expanduser(out_fh), 'w')
+        out = safe_open_w(os.path.expanduser(out_fh))
         out.truncate()
         template = env.get_template(os.path.join(template_path, template_fh))
         out.write(template.render(data))

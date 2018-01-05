@@ -23,7 +23,7 @@
 #extends: atelier-sulphurpool.yaml
 #extends: bespin.yaml
 #extends: brewer.yaml
-#extends: bright.yaml
+extends: bright.yaml
 #extends: chalk.yaml
 #extends: codeschool.yaml
 #extends: darktooth.yaml
@@ -34,7 +34,7 @@
 #extends: grayscale-dark.yaml
 #extends: grayscale-light.yaml
 #extends: greenscreen.yaml
-extends: gruvbox-dark-hard.yaml
+#extends: gruvbox-dark-hard.yaml
 #extends: gruvbox-dark-medium.yaml
 #extends: gruvbox-dark-pale.yaml
 #extends: gruvbox-dark-soft.yaml
@@ -64,9 +64,9 @@ extends: gruvbox-dark-hard.yaml
 #extends: tube.yaml
 primary: "fe8019"
 fontName: "xos4 Terminus"
-fontSize: 14
+fontSize: 11
 chineseFontName: WenQuanYi WenQuanYi Bitmap Song
-chineseFontSize: 13
+chineseFontSize: 10
 font: "-*-terminus-*-*-*-*-14-*-*-*-*-*-*-*"
 
 files:
@@ -90,7 +90,9 @@ files:
     fcitx_light_ui_config.tpl: ~/.config/fcitx/conf/fcitx-light-ui.config
     tmux.conf: ~/.tmux.conf
     fonts.conf: ~/.config/fontconfig/fonts.conf
-    #stx: /usr/local/bin/stx
+    stx: /usr/local/bin/stx
     zathurarc: ~/.config/zathura/zathurarc
     dunstrc: ~/.config/dunst/dunstrc
-
+    compton.conf: ~/.config/compton.conf
+    mimeapps.list: ~/.config/mimeapps.list
+    feh-themes: ~/.config/feh/themes
