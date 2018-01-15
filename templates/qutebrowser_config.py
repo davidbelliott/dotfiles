@@ -98,7 +98,7 @@ font_size = "{{ fontSize }}"
 font_name = "{{ fontName }}"
 chinese_font_size = "{{ chineseFontSize }}"
 chinese_font_name = "{{ chineseFontName }}"
-default_font = "{}pt {}, {}pt {}".format(font_size, font_name, chinese_font_size, chinese_font_name)
+default_font = "{}pt {}, {}".format(font_size, font_name, chinese_font_name)
 c.fonts.monospace = default_font
 
 c.fonts.completion.category = default_font
@@ -126,7 +126,6 @@ c.tabs.favicons.show = False
 c.tabs.indicator.width = 0
 
 c.downloads.location.directory = "~/downloads"
-c.downloads.location.remember = False
 
 c.content.plugins = True
 
