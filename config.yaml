@@ -136,3 +136,4 @@ files:
     feh-themes: ~/.config/feh/themes
     solarize.sh: ~/build/solarc-theme/solarize.sh
     mpdconf: ~/.config/mpd/mpd.conf
+    latexmkrc: ~/.latexmkrc

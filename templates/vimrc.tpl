@@ -1,3 +1,4 @@
+" vim:syntax=vim
 "initialize Vundle
 
 set nocompatible              " be iMproved, required
@@ -17,6 +18,7 @@ Plugin 'scrooloose/syntastic'
 Plugin 'Shougo/deoplete.nvim'
 Plugin 'Shougo/neosnippet'
 Plugin 'Shougo/neosnippet-snippets'
+Plugin 'Shougo/context_filetype.vim'
 Plugin 'roxma/nvim-yarp'
 Plugin 'roxma/vim-hug-neovim-rpc'
 call vundle#end()
@@ -70,6 +72,7 @@ let g:syntastic_quiet_messages = { "type": "style" }
 let g:deoplete#enable_at_startup = 1
 " deoplete tab-complete
 inoremap <expr><tab> pumvisible() ? "\<c-n>" : "\<tab>"
+inoremap <expr><S-Tab> pumvisible() ? "\<c-p>" : "\<S-tab>"
 
 " LaTeX completion patterns for deoplete.
 if !exists('g:deoplete#omni#input_patterns')
@@ -77,7 +80,7 @@ if !exists('g:deoplete#omni#input_patterns')
 endif
 let g:deoplete#omni#input_patterns.tex = g:vimtex#re#deoplete
 
-" neosnippet key-mappings.
+" Plugin key-mappings.
 " Note: It must be "imap" and "smap".  It uses <Plug> mappings.
 imap <C-k>     <Plug>(neosnippet_expand_or_jump)
 smap <C-k>     <Plug>(neosnippet_expand_or_jump)
