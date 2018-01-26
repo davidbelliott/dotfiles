@@ -137,3 +137,5 @@ files:
     solarize.sh: ~/build/solarc-theme/solarize.sh
     mpdconf: ~/.config/mpd/mpd.conf
     latexmkrc: ~/.latexmkrc
+    ncmpcpp_config: ~/.ncmpcpp/config
+    ncmpcpp_bindings: ~/.ncmpcpp/bindings
