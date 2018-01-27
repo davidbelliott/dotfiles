@@ -139,3 +139,4 @@ files:
     latexmkrc: ~/.latexmkrc
     ncmpcpp_config: ~/.ncmpcpp/config
     ncmpcpp_bindings: ~/.ncmpcpp/bindings
+    za: /usr/local/bin/za

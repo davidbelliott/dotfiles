@@ -1,5 +1,4 @@
 [Default Applications]
-application/pdf=zathura.desktop
 image/gif=mpv-gif.desktop;
 image/jpeg=feh.desktop;
 application/pdf=zathura.desktop;
