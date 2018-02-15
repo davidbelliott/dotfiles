@@ -102,9 +102,6 @@ smap <expr><TAB> neosnippet#expandable_or_jumpable() ?
 
 inoremap <silent><expr><CR> pumvisible() ? deoplete#mappings#close_popup()."\<CR>" : "\<CR>"
 
-" Clear search when <esc> pressed
-nnoremap <esc> :noh<return><esc>
-
 " Print on letter paper
 set printoptions=paper:letter
 
