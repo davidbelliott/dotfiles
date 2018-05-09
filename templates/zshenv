@@ -1,3 +1,4 @@
-export PATH=$PATH:/home/david/.gem/ruby/2.4.0/bin:$HOME/bin:/opt/cuda/bin
+export PATH=$PATH:/home/david/.gem/ruby/2.4.0/bin:$HOME/bin:/opt/cuda/bin:$(go env GOPATH)/bin
 export QT_QPA_PLATFORMTHEME=gtk2
 export EDITOR="vim"
+export GOPATH=$(go env GOPATH)

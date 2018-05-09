@@ -3,6 +3,7 @@
 xrandr --setprovideroutputsource modesetting NVIDIA-0
 xrandr --auto
 xrandr --dpi 96
+xrandr --output LVDS-1 --primary --auto --output VGA-1 --auto --above LVDS-1
 
 userresources=$HOME/.Xresources
 usermodmap=$HOME/.Xmodmap
@@ -55,4 +56,6 @@ compton &
 redshift &
 xautolock -time 10 -locker slock &
 set-headphone-port.sh &
+mpd &
+clipmenud &
 exec dwm

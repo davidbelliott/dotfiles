@@ -2,6 +2,8 @@
 *.cursorColor:   #{{ base05 }}
 *.font:xft:{{ fontName }}-{{ fontSize }}, xft:{{ chineseFontName }}:size={{ chineseFontSize }}, xft:Symbola:size={{ fontSize }}
 *.italicFont:xft:Monospace:pixelsize=14:antialias=true:italic:autohint=true:hinting=true
+
+Xcursor.size: 24
 URxvt*scrollBar: false
 URxvt.iso14755: true
 URxvt.iso14755_52: false

@@ -3,6 +3,7 @@ config.load_autoconfig = False
 c.content.ssl_strict = False
 c.content.private_browsing = False
 
+c.url.auto_search = "dns"
 c.url.searchengines = {"DEFAULT": "https://google.com/search?q={}"}
 c.url.start_pages = ["about:blank"]
 
