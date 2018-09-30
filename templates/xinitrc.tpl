@@ -58,4 +58,5 @@ xautolock -time 10 -locker slock &
 set-headphone-port.sh &
 mpd &
 clipmenud &
+rescuetime &
 exec dwm

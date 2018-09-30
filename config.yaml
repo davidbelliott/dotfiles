@@ -113,6 +113,7 @@ files:
     zshenv: ~/.zshenv
     cava.tpl: ~/.config/cava/config
     dwm_config.tpl: ~/build/dwm/config.h
+    dmenu_config.h: ~/build/dmenu/config.h
     tabbed_config.h: ~/build/tabbed/config.h
     gtk.css: ~/.config/gtk-3.0/gtk.css
     slock_config.tpl: ~/build/slock/config.h
@@ -128,7 +129,6 @@ files:
     fcitx_light_ui_config.tpl: ~/.config/fcitx/conf/fcitx-light-ui.config
     tmux.conf: ~/.tmux.conf
     fonts.conf: ~/.config/fontconfig/fonts.conf
-    stx: /usr/local/bin/stx
     zathurarc: ~/.config/zathura/zathurarc
     dunstrc: ~/.config/dunst/dunstrc
     compton.conf: ~/.config/compton.conf
@@ -139,4 +139,3 @@ files:
     latexmkrc: ~/.latexmkrc
     ncmpcpp_config: ~/.ncmpcpp/config
     ncmpcpp_bindings: ~/.ncmpcpp/bindings
-    za: /usr/local/bin/za

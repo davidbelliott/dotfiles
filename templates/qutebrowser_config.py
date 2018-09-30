@@ -123,12 +123,14 @@ c.fonts.web.family.serif = "serif"
 c.fonts.web.family.standard = "sans-serif"
 
 c.tabs.show = "multiple"
-c.tabs.favicons.show = False
+c.tabs.favicons.show = "never"
 c.tabs.indicator.width = 0
 
 c.downloads.location.directory = "~/downloads"
 
 c.content.plugins = True
+
+c.input.insert_mode.auto_load = True
 
 c.zoom.default="80%"
 

@@ -9,6 +9,7 @@ source ~/.bashrc
 fc-cache
 
 cd ~/build/dwm && sudo make clean install
+cd ~/build/dmenu && sudo make clean install
 cd ~/build/slock && sudo make clean install
 cd ~/build/slstatus && sudo make clean install
 cd ~/build/tabbed && sudo make clean install
