@@ -46,7 +46,7 @@
 #extends: grayscale-dark.yaml
 #extends: grayscale-light.yaml
 #extends: greenscreen.yaml
-extends: gruvbox-dark-hard.yaml
+#extends: gruvbox-dark-hard.yaml
 #extends: gruvbox-dark-medium.yaml
 #extends: gruvbox-dark-pale.yaml
 #extends: gruvbox-dark-soft.yaml
@@ -76,7 +76,7 @@ extends: gruvbox-dark-hard.yaml
 #extends: onedark.yaml
 #extends: one-light.yaml
 #extends: paraiso.yaml
-#extends: phd.yaml
+extends: phd.yaml
 #extends: pico.yaml
 #extends: pop.yaml
 #extends: porple.yaml
@@ -101,9 +101,9 @@ extends: gruvbox-dark-hard.yaml
 #extends: zenburn.yaml
 
 primary: "fe8019"
-fontName: "xos4 Terminus"
-fontSize: 11
-chineseFontName: WenQuanYi WenQuanYi Bitmap Song
+fontName: "Terminus"
+fontSize: 12
+chineseFontName: WenQuanYi Bitmap Song
 chineseFontSize: 10
 font: "-*-terminus-*-*-*-*-14-*-*-*-*-*-*-*"
 

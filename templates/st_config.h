@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "{{fontName}}:size={{fontSize}}:antialias=false:autohint=false";
+static char *font = "{{fontName}}:size={{fontSize}}";
 static int borderpx = 2;
 
 /*

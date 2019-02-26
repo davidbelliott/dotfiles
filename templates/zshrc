@@ -22,21 +22,3 @@ prompt grml
 # Aliases
 alias vim='nvim'
 alias vi='nvim'
-
-# ROS
-ros-start(){
-docker run -it \
-    --env="DISPLAY" \
-    --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw" \
-    -v /home/$(whoami)/ros:/ros \
-    osrf/ros:lunar-desktop-full \
-    bash -c "cp /ros/.bashrc /root/.bashrc && bash"
-}
- 
-ros-connect(){
-docker exec -ti $(docker ps -aq --filter ancestor=osrf/ros:lunar-desktop-full --filter status=running) bash
-}
- 
-ros-clean(){
-docker rm $(docker ps -aq --filter ancestor=osrf/ros:lunar-desktop-full --filter status=exited)
-}

@@ -5,7 +5,7 @@ import sys
 import os
 import errno
 
-theme_path = "themes/all"
+theme_path = "themes"
 template_path = "templates"
 output_path = "output"
 
