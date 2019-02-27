@@ -1,4 +1,4 @@
-set recolor true
+set recolor false
 set recolor-darkcolor "#{{ base00 }}"
 set recolor-lightcolor "#{{ base05 }}"
 set selection-clipboard "clipboard"

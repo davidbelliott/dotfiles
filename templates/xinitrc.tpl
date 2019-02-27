@@ -59,4 +59,4 @@ set-headphone-port.sh &
 mpd &
 clipmenud &
 rescuetime &
-exec dwm
+exec startdwm

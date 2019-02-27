@@ -20,7 +20,8 @@ prompt grml
 ~/.shell.sh
 
 # Aliases
-alias vim='vim --servername vim'
+alias vim='nvim'
+alias vi='nvim'
 
 # ROS
 ros-start(){

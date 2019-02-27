@@ -23,7 +23,7 @@
 #extends: atelier-sulphurpool.yaml
 #extends: bespin.yaml
 #extends: brewer.yaml
-extends: bright.yaml
+#extends: bright.yaml
 #extends: brushtrees-dark.yaml
 #extends: brushtrees.yaml
 #extends: chalk.yaml
@@ -46,7 +46,7 @@ extends: bright.yaml
 #extends: grayscale-dark.yaml
 #extends: grayscale-light.yaml
 #extends: greenscreen.yaml
-#extends: gruvbox-dark-hard.yaml
+extends: gruvbox-dark-hard.yaml
 #extends: gruvbox-dark-medium.yaml
 #extends: gruvbox-dark-pale.yaml
 #extends: gruvbox-dark-soft.yaml
@@ -115,6 +115,7 @@ files:
     dwm_config.tpl: ~/build/dwm/config.h
     dmenu_config.h: ~/build/dmenu/config.h
     tabbed_config.h: ~/build/tabbed/config.h
+    st_config.h: ~/build/st/config.h
     gtk.css: ~/.config/gtk-3.0/gtk.css
     slock_config.tpl: ~/build/slock/config.h
     slstatus_config.h: ~/build/slstatus/config.h
@@ -139,3 +140,4 @@ files:
     latexmkrc: ~/.latexmkrc
     ncmpcpp_config: ~/.ncmpcpp/config
     ncmpcpp_bindings: ~/.ncmpcpp/bindings
+    xbindkeysrc: ~/.xbindkeysrc
