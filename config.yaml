@@ -141,3 +141,4 @@ files:
     ncmpcpp_config: ~/.ncmpcpp/config
     ncmpcpp_bindings: ~/.ncmpcpp/bindings
     xbindkeysrc: ~/.xbindkeysrc
+    nvim_init.vim: ~/.config/nvim/init.vim
