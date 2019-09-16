@@ -46,9 +46,9 @@ c.colors.downloads.start.bg = base0D
 c.colors.downloads.start.fg = base06
 c.colors.downloads.stop.bg = base0B
 c.colors.downloads.stop.fg = base06
-c.colors.hints.bg = base00
+c.colors.hints.bg = base0A
 c.colors.hints.fg = base05
-c.colors.hints.match.fg = base0A
+c.colors.hints.match.fg = base0B
 c.colors.keyhint.bg = base00
 c.colors.keyhint.fg = base05
 c.colors.keyhint.suffix.fg = base0A
@@ -96,11 +96,12 @@ c.colors.tabs.selected.odd.fg = base05
 
 c.hints.border = "1px solid {}".format(base00)
 
+font_weight = "{{ fontWeight }}"
 font_size = "{{ fontSize }}"
 font_name = "{{ fontName }}"
 chinese_font_size = "{{ chineseFontSize }}"
 chinese_font_name = "{{ chineseFontName }}"
-default_font = "{}pt {}, {}".format(font_size, font_name, chinese_font_name)
+default_font = "{} {}pt {}, {}".format(font_weight, font_size, font_name, chinese_font_name)
 c.fonts.monospace = default_font
 
 c.fonts.completion.category = default_font
@@ -124,7 +125,7 @@ c.fonts.web.family.serif = "serif"
 c.fonts.web.family.standard = "sans-serif"
 
 c.tabs.show = "multiple"
-c.tabs.favicons.show = "never"
+c.tabs.favicons.show = False
 c.tabs.indicator.width = 0
 
 c.downloads.location.directory = "~/downloads"
@@ -133,6 +134,4 @@ c.content.plugins = True
 
 c.input.insert_mode.auto_load = True
 
-c.zoom.default="80%"
-
-c.content.headers.accept_language = 'zh-TW,en-US,en'
+c.zoom.default="100%"

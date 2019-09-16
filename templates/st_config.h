@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "{{fontName}}:size={{fontSize}}:antialias=false:autohint=false";
+static char *font = "{{fontName}}:size={{fontSize}}:style={{fontWeight}}:antialias=false:autohint=false";
 static int borderpx = 2;
 
 /*
@@ -32,7 +32,7 @@ static float chscale = 1.0;
  *
  * More advanced example: " `'\"()[]{}"
  */
-char *worddelimiters = " ";
+wchar_t *worddelimiters = L" ";
 
 /* selection timeouts (in milliseconds) */
 static unsigned int doubleclicktimeout = 300;

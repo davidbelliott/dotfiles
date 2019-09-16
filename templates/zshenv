@@ -1,5 +1,7 @@
-export PATH=$PATH:/home/david/.gem/ruby/2.4.0/bin:$HOME/bin:/opt/cuda/bin:$(go env GOPATH)/bin:/opt/Xilinx/Vivado_Lab/2018.2/bin
-export QT_QPA_PLATFORMTHEME=gtk2
-export EDITOR="vim"
-export GOPATH=$(go env GOPATH)
-export _JAVA_AWT_WM_NONREPARENTING=1
+HISTFILE=~/.zsh_history
+SAVEHIST=1000
+EDITOR="vim"
+_JAVA_AWT_WM_NONREPARENTING=1
+GHS_LMWHICH=ghs
+GHS_LMHOST=#ghslm1,ghslm2,ghslm3
+PATH=$PATH:/usr/ghs/multi_716/
