@@ -2,6 +2,5 @@ HISTFILE=~/.zsh_history
 SAVEHIST=1000
 EDITOR="vim"
 _JAVA_AWT_WM_NONREPARENTING=1
-GHS_LMWHICH=ghs
-GHS_LMHOST=#ghslm1,ghslm2,ghslm3
-PATH=$PATH:/usr/ghs/multi_716/
+
+export PATH="$PATH:/home/david/go/bin:/opt/oss-cad-suite/bin"

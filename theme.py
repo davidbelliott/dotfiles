@@ -35,7 +35,7 @@ def read_config(config_file):
     """Read a YAML config file."""
     base_config = {}
     with open(config_file) as fh:
-        data = yaml.load(fh)
+        data = yaml.load(fh, Loader=yaml.Loader)
 
     if data.get('extends'):
         parent_config = os.path.join(theme_path, data['extends'])

@@ -43,3 +43,11 @@ set ttimeoutlen=0
 set regexpengine=1
 
 map <F4> :e %:p:s,.h$,.X123X,:s,.c$,.h,:s,.X123X$,.c,<CR>
+
+
+call plug#begin('~/.vim/plugged')
+
+Plug 'lervag/vimtex'
+Plug 'github/copilot.vim'
+
+call plug#end()

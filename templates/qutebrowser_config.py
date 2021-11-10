@@ -1,10 +1,5 @@
-config.load_autoconfig = False
+config.load_autoconfig(False)
 
-c.content.ssl_strict = False
-c.content.private_browsing = False
-c.content.cookies.accept = 'all'
-
-c.url.auto_search = "dns"
 c.url.searchengines = {"DEFAULT": "https://google.com/search?q={}"}
 c.url.start_pages = ["about:blank"]
 
@@ -24,6 +19,7 @@ base0C = "#{{ base0C }}"
 base0D = "#{{ base0D }}"
 base0E = "#{{ base0E }}"
 base0F = "#{{ base0F }}"
+
 
 c.colors.completion.category.bg = base01
 c.colors.completion.category.border.bottom = c.colors.completion.category.bg
@@ -102,7 +98,6 @@ font_name = "{{ fontName }}"
 chinese_font_size = "{{ chineseFontSize }}"
 chinese_font_name = "{{ chineseFontName }}"
 default_font = "{} {}pt {}, {}".format(font_weight, font_size, font_name, chinese_font_name)
-c.fonts.monospace = default_font
 
 c.fonts.completion.category = default_font
 c.fonts.completion.entry = default_font
@@ -115,7 +110,8 @@ c.fonts.messages.info = default_font
 c.fonts.messages.warning = default_font
 c.fonts.prompts = default_font
 c.fonts.statusbar = default_font
-c.fonts.tabs = default_font
+c.fonts.tabs.selected = default_font
+c.fonts.tabs.unselected = default_font
 
 c.fonts.web.family.cursive = "serif"
 c.fonts.web.family.fantasy = "serif"
@@ -125,7 +121,7 @@ c.fonts.web.family.serif = "serif"
 c.fonts.web.family.standard = "sans-serif"
 
 c.tabs.show = "multiple"
-c.tabs.favicons.show = False
+c.tabs.favicons.show = "never"
 c.tabs.indicator.width = 0
 
 c.downloads.location.directory = "~/downloads"

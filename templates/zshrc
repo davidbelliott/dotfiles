@@ -28,8 +28,6 @@ prompt walters
 ~/.shell.sh
 
 # Aliases
-alias vim='nvim'
-alias vi='nvim'
 
 ## Colorize the ls output ##
 alias ls='ls --color=auto'
