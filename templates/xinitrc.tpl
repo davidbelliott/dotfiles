@@ -35,10 +35,10 @@ if [ -d /etc/X11/xinit/xinitrc.d ] ; then
 fi
 
 # No bell beep
-xset -b
+# xset -b
 
 # key repeat rate
-xset r rate 300 80
+# xset r rate 300 80
 
 # start programs
 # udiskie &
@@ -46,11 +46,5 @@ xset r rate 300 80
 # dunst &
 hsetroot -solid "#{{ base00 }}"
 slstatus &
-compton &
-# redshift &
-# xautolock -time 10 -locker slock &
-# set-headphone-port.sh &
-# mpd &
-# clipmenud &
-# rescuetime &
-exec startdwm
+picom &
+exec dwm

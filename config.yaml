@@ -109,7 +109,6 @@ chineseFontSize: 10
 font: "-*-terminus-normal-*-*-*-14-*-*-*-*-*-*-*"
 
 files:
-    bashrc.tpl: ~/.bashrc
     zshrc: ~/.zshrc
     zshenv: ~/.zshenv
     dwm_config.tpl: ~/build/dwm/config.h
@@ -117,21 +116,14 @@ files:
     st_config.h: ~/build/st/config.h
     slock_config.tpl: ~/build/slock/config.h
     slstatus_config.h: ~/build/slstatus/config.h
-    tabbed_config.h: ~/build/tabbed/config.h
     shell.tpl: ~/.shell.sh
     vimrc.tpl: ~/.vimrc
     gvimrc: ~/.gvimrc
     vim_colorscheme.tpl: ~/.vim/colors/base16.vim
     xinitrc.tpl: ~/.xinitrc
     tmux.conf: ~/.tmux.conf
-    fonts.conf: ~/.config/fontconfig/fonts.conf
     zathurarc: ~/.config/zathura/zathurarc
     dunstrc: ~/.config/dunst/dunstrc
-    compton.conf: ~/.config/compton.conf
-    mimeapps.list: ~/.config/mimeapps.list
     feh-themes: ~/.config/feh/themes
-    xbindkeysrc: ~/.xbindkeysrc
-    nvim_init.vim: ~/.config/nvim/init.vim
+    picom.conf: ~/.config/picom.conf
     qutebrowser_config.py: ~/.config/qutebrowser/config.py
-    xresources.tpl: ~/.Xresources
-    profile: ~/.profile
