@@ -10,33 +10,30 @@ bindkey '^S' history-incremental-search-forward
 bindkey '^P' history-search-backward
 bindkey '^N' history-search-forward  
 
+# appends every command to the history file
+setopt inc_append_history
+# read history file every time history is called
+setopt share_history
+setopt appendhistory
+HISTSIZE=5000
+HISTFILE=~/.zsh_history
+
 autoload -Uz compinit promptinit
 compinit
 promptinit
 
-prompt grml
+prompt walters
 
 # Fix Base 16 colors
 ~/.shell.sh
 
 # Aliases
-alias vim='nvim'
-alias vi='nvim'
 
-# ROS
-ros-start(){
-docker run -it \
-    --env="DISPLAY" \
-    --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw" \
-    -v /home/$(whoami)/ros:/ros \
-    osrf/ros:lunar-desktop-full \
-    bash -c "cp /ros/.bashrc /root/.bashrc && bash"
-}
- 
-ros-connect(){
-docker exec -ti $(docker ps -aq --filter ancestor=osrf/ros:lunar-desktop-full --filter status=running) bash
-}
- 
-ros-clean(){
-docker rm $(docker ps -aq --filter ancestor=osrf/ros:lunar-desktop-full --filter status=exited)
-}
+## Colorize the ls output ##
+alias ls='ls --color=auto'
+
+## Use a long listing format ##
+alias ll='ls -la'
+
+## Show hidden files ##
+alias l.='ls -d .* --color=auto'

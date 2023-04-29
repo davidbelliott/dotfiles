@@ -1,3 +1,4 @@
+extends: david-dark.yaml
 #extends: 3024.yaml
 #extends: apathy.yaml
 #extends: ashes.yaml
@@ -46,7 +47,7 @@
 #extends: grayscale-dark.yaml
 #extends: grayscale-light.yaml
 #extends: greenscreen.yaml
-extends: gruvbox-dark-hard.yaml
+#extends: gruvbox-dark-hard.yaml
 #extends: gruvbox-dark-medium.yaml
 #extends: gruvbox-dark-pale.yaml
 #extends: gruvbox-dark-soft.yaml
@@ -101,44 +102,28 @@ extends: gruvbox-dark-hard.yaml
 #extends: zenburn.yaml
 
 primary: "fe8019"
-fontName: "xos4 Terminus"
+fontName: "Terminus"
 fontSize: 11
+fontWeight: "normal"
 chineseFontName: WenQuanYi WenQuanYi Bitmap Song
 chineseFontSize: 10
-font: "-*-terminus-*-*-*-*-14-*-*-*-*-*-*-*"
+font: "-*-terminus-normal-*-*-*-14-*-*-*-*-*-*-*"
 
 files:
-    bashrc.tpl: ~/.bashrc
     zshrc: ~/.zshrc
     zshenv: ~/.zshenv
-    cava.tpl: ~/.config/cava/config
     dwm_config.tpl: ~/build/dwm/config.h
     dmenu_config.h: ~/build/dmenu/config.h
-    tabbed_config.h: ~/build/tabbed/config.h
     st_config.h: ~/build/st/config.h
-    gtk.css: ~/.config/gtk-3.0/gtk.css
     slock_config.tpl: ~/build/slock/config.h
     slstatus_config.h: ~/build/slstatus/config.h
-    qutebrowser_config.py: ~/.config/qutebrowser/config.py
     shell.tpl: ~/.shell.sh
     vimrc.tpl: ~/.vimrc
-    gvimrc: ~/.gvimrc
     vim_colorscheme.tpl: ~/.vim/colors/base16.vim
-    xresources.tpl: ~/.Xresources
     xinitrc.tpl: ~/.xinitrc
-    fcitx_config.tpl: ~/.config/fcitx/config
-    fcitx_light_ui_config.tpl: ~/.config/fcitx/conf/fcitx-light-ui.config
     tmux.conf: ~/.tmux.conf
-    fonts.conf: ~/.config/fontconfig/fonts.conf
     zathurarc: ~/.config/zathura/zathurarc
     dunstrc: ~/.config/dunst/dunstrc
-    compton.conf: ~/.config/compton.conf
-    mimeapps.list: ~/.config/mimeapps.list
     feh-themes: ~/.config/feh/themes
-    solarize.sh: ~/build/solarc-theme/solarize.sh
-    mpdconf: ~/.config/mpd/mpd.conf
-    latexmkrc: ~/.latexmkrc
-    ncmpcpp_config: ~/.ncmpcpp/config
-    ncmpcpp_bindings: ~/.ncmpcpp/bindings
-    xbindkeysrc: ~/.xbindkeysrc
-    nvim_init.vim: ~/.config/nvim/init.vim
+      #picom.conf: ~/.config/picom.conf
+    qutebrowser_config.py: ~/.config/qutebrowser/config.py

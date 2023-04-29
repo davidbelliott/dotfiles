@@ -1,0 +1,12 @@
+diff --git a/Makefile b/Makefile
+index 7834257..5e75cf2 100644
+--- a/Makefile
++++ b/Makefile
+@@ -18,7 +18,6 @@ COM =\
+ 	components/keyboard_indicators\
+ 	components/keymap\
+ 	components/load_avg\
+-	components/netspeeds\
+ 	components/num_files\
+ 	components/ram\
+ 	components/run_command\

@@ -1,19 +1,10 @@
 #!/bin/sh
 
-xrandr --setprovideroutputsource modesetting NVIDIA-0
-xrandr --auto
-xrandr --dpi 96
-xrandr --output LVDS-1 --primary --auto --output VGA-1 --auto --above LVDS-1
-
 userresources=$HOME/.Xresources
 usermodmap=$HOME/.Xmodmap
 sysresources=/etc/X11/xinit/.Xresources
 sysmodmap=/etc/X11/xinit/.Xmodmap
 
-export GTK_IM_MODULE=fcitx
-export QT_IM_MODULE=fcitx
-export XMODIFIERS=@im=fcitx
-#export LANG=zh_TW.UTF-8
 export LANG=en_US.UTF-8
 
 # merge in defaults and keymaps
@@ -44,19 +35,16 @@ if [ -d /etc/X11/xinit/xinitrc.d ] ; then
 fi
 
 # No bell beep
-xset -b
+# xset -b
+
+# key repeat rate
+xset r rate 300 80
 
 # start programs
-udiskie &
-fcitx &
-dunst &
+# udiskie &
+# fcitx &
+# dunst &
 hsetroot -solid "#{{ base00 }}"
 slstatus &
-compton &
-redshift &
-xautolock -time 10 -locker slock &
-set-headphone-port.sh &
-mpd &
-clipmenud &
-rescuetime &
-exec startdwm
+picom &
+exec dwm

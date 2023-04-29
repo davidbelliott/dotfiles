@@ -1,10 +1,5 @@
-config.load_autoconfig = False
+config.load_autoconfig(False)
 
-c.content.ssl_strict = False
-c.content.private_browsing = False
-c.content.cookies.accept = 'all'
-
-c.url.auto_search = "dns"
 c.url.searchengines = {"DEFAULT": "https://google.com/search?q={}"}
 c.url.start_pages = ["about:blank"]
 
@@ -24,6 +19,7 @@ base0C = "#{{ base0C }}"
 base0D = "#{{ base0D }}"
 base0E = "#{{ base0E }}"
 base0F = "#{{ base0F }}"
+
 
 c.colors.completion.category.bg = base01
 c.colors.completion.category.border.bottom = c.colors.completion.category.bg
@@ -46,9 +42,9 @@ c.colors.downloads.start.bg = base0D
 c.colors.downloads.start.fg = base06
 c.colors.downloads.stop.bg = base0B
 c.colors.downloads.stop.fg = base06
-c.colors.hints.bg = base00
+c.colors.hints.bg = base0A
 c.colors.hints.fg = base05
-c.colors.hints.match.fg = base0A
+c.colors.hints.match.fg = base0B
 c.colors.keyhint.bg = base00
 c.colors.keyhint.fg = base05
 c.colors.keyhint.suffix.fg = base0A
@@ -96,12 +92,12 @@ c.colors.tabs.selected.odd.fg = base05
 
 c.hints.border = "1px solid {}".format(base00)
 
+font_weight = "{{ fontWeight }}"
 font_size = "{{ fontSize }}"
 font_name = "{{ fontName }}"
 chinese_font_size = "{{ chineseFontSize }}"
 chinese_font_name = "{{ chineseFontName }}"
-default_font = "{}pt {}, {}".format(font_size, font_name, chinese_font_name)
-c.fonts.monospace = default_font
+default_font = "{} {}pt {}, {}".format(font_weight, font_size, font_name, chinese_font_name)
 
 c.fonts.completion.category = default_font
 c.fonts.completion.entry = default_font
@@ -114,7 +110,8 @@ c.fonts.messages.info = default_font
 c.fonts.messages.warning = default_font
 c.fonts.prompts = default_font
 c.fonts.statusbar = default_font
-c.fonts.tabs = default_font
+c.fonts.tabs.selected = default_font
+c.fonts.tabs.unselected = default_font
 
 c.fonts.web.family.cursive = "serif"
 c.fonts.web.family.fantasy = "serif"
@@ -133,6 +130,4 @@ c.content.plugins = True
 
 c.input.insert_mode.auto_load = True
 
-c.zoom.default="80%"
-
-c.content.headers.accept_language = 'zh-TW,en-US,en'
+c.zoom.default="100%"
