@@ -43,6 +43,7 @@ fi
 . venv/bin/activate
  
 if [ $INIT -eq 1 ]; then
+    pip install --upgrade pip
     pip install -r requirements.txt
     if [ -e "$TARGET/init.sh" ]; then
         "$TARGET/init.sh"
