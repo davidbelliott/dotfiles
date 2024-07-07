@@ -103,10 +103,10 @@ extends: david-dark.yaml
 
 primary: "fe8019"
 fontName: "Terminus"
-fontSize: 11
+fontSize: 13
 fontWeight: "normal"
 chineseFontName: WenQuanYi WenQuanYi Bitmap Song
-chineseFontSize: 10
+chineseFontSize: 12
 font: "-*-terminus-normal-*-*-*-14-*-*-*-*-*-*-*"
 
 files:
@@ -125,5 +125,5 @@ files:
     zathurarc: ~/.config/zathura/zathurarc
     dunstrc: ~/.config/dunst/dunstrc
     feh-themes: ~/.config/feh/themes
-      #picom.conf: ~/.config/picom.conf
+    picom.conf: ~/.config/picom.conf
     qutebrowser_config.py: ~/.config/qutebrowser/config.py

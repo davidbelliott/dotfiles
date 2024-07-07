@@ -1,7 +1,7 @@
 #!/bin/sh -e
 BASEDIR="$(dirname "$(readlink -f "$0")")"
 
-sudo pacman -S --noconfirm terminus-font wqy-bitmapfont libxft libxinerama
+sudo pacman -S --noconfirm terminus-font wqy-bitmapfont libxft libxinerama hsetroot picom
 mkdir ~/build
 cd ~/build
 git clone https://git.suckless.org/dwm
