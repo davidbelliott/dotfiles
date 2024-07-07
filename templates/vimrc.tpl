@@ -49,5 +49,6 @@ call plug#begin('~/.vim/plugged')
 
 Plug 'lervag/vimtex'
 Plug 'github/copilot.vim'
+Plug 'tikhomirov/vim-glsl'
 
 call plug#end()
