@@ -97,7 +97,7 @@ font_size = "{{ fontSize }}"
 font_name = "{{ fontName }}"
 chinese_font_size = "{{ chineseFontSize }}"
 chinese_font_name = "{{ chineseFontName }}"
-default_font = "{} {}pt {}, {}".format(font_weight, font_size, font_name, chinese_font_name)
+default_font = "{} {}px {}, {}".format(font_weight, font_size, font_name, chinese_font_name)
 
 c.fonts.completion.category = default_font
 c.fonts.completion.entry = default_font
