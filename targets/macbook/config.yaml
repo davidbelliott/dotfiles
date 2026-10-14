@@ -1,0 +1,4 @@
+files:
+    zshrc_mac: ~/.zshrc
+    nvim_init.vim: ~/.config/nvim/init.vim
+    tmux.conf: ~/.tmux.conf

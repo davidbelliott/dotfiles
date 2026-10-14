@@ -1,11 +1,11 @@
-#!/bin/sh -e
+#!/bin/bash -e
  
 usage() {
     echo "Usage: theme.sh [ -i | --init ] targetname"
     exit 2
 }
  
-PARSED_ARGS=$(getopt -n theme -o i --long init -- "$@")
+PARSED_ARGS=$(getopt -n theme --long init -- "$@")
 VALID_ARGS=$?
 if [ "$VALID_ARGS" != "0" ]; then
     usage

@@ -1,0 +1,41 @@
+# vim keybindings
+bindkey -v
+
+# 10ms for key sequences
+KEYTIMEOUT=1
+
+# vi style incremental search
+bindkey '^R' history-incremental-search-backward
+bindkey '^S' history-incremental-search-forward
+bindkey '^P' history-search-backward
+bindkey '^N' history-search-forward  
+
+# appends every command to the history file
+# setopt inc_append_history
+# read history file every time history is called
+# setopt share_history
+# setopt appendhistory
+# HISTSIZE=5000
+# HISTFILE=~/.zsh_history
+
+# autoload -Uz compinit promptinit
+# compinit
+# promptinit
+
+# prompt walters
+
+# Aliases
+
+## Neovim
+alias vim=nvim
+
+## Colorize the ls output ##
+alias ls='ls --color=auto'
+
+## Use a long listing format ##
+alias ll='ls -la'
+
+## Show hidden files ##
+alias l.='ls -d .* --color=auto'
+
+export EDITOR="vim"
